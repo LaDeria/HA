@@ -17,3 +17,13 @@ Command 'xport' not found, did you mean:
   command 'port' from snap port (1.10.0)
   command 'xpore' from deb xpore (2.1-2)
 See 'snap info <snapname>' for additional versions
+
+
+<property>
+    <name>hadoop.tmp.dir</name>
+    <value>/home/duong/hadoop-3.4.0/tmp</value>
+</property>
+<property>
+    <name>fs.default.name</name>
+    <value>hdfs://localhost:9000</value>
+</property>
